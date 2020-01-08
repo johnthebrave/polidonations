@@ -277,7 +277,7 @@ class MO_PAGE(Spider):
             column_name = "Valoare"
         elif "Denumirea" in column_name:
             column_name = "Numele"
-        elif "Codul de înregistrare fiscalã":
+        elif "Codul de înregistrare fiscalã" in column_name:
             column_name = "CIF"
 
         return column_name
